@@ -9,6 +9,7 @@ Using time series data, this analysis will look at the trend of violent crimes u
 3. Filtering the data sets to get only relevant information.
 4. Visualizing outcomes in a very clear and understandable format.
 5. Using statistical and machine learning techniques to ascertain facts and make possible predictions.
+   
 
 # KEY FINDINGS
 
@@ -24,4 +25,15 @@ Using time series data, this analysis will look at the trend of violent crimes u
 **2. There's a positive correlation between firearm and drug crimes. This can be seen in the scatter plot and heatmap below.**
 
 ![](https://github.com/odogwu25/UK-Crime-Analysis/blob/main/crimeimages/drug%20%26%20firearm%20corr.png)
+
+![](https://github.com/odogwu25/UK-Crime-Analysis/blob/main/crimeimages/drug%20and%20firearm%20scatterplot.png)
+
+
+# FUTURE PREDICTION USING ARIMA
+
+The autoregressive integrated moving average(ARIMA) was used for prediction. Before that, the data used for this model had been made stationary. This model was adopted because it is best used to understand previous data while predicting future outcomes. This method assesses the significance of historical variations, considers broad trends, and reduces the impact of outliers or brief aberrant changes in the data. ARIMA incorporates these ideas in its combined autoregressive and moving-average approach to model stationary time-series data. The historical trends, seasonality, unpredictability, and other non-static phenomena that people miss are all perfectly captured by ARIMA.
+
+![](https://github.com/odogwu25/UK-Crime-Analysis/blob/main/crimeimages/Arima.png)
+
+
 
