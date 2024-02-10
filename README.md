@@ -22,11 +22,18 @@ Using time series data, this analysis will look at the trend of violent crimes u
 ![The candle stick shows the retracement each year](https://github.com/odogwu25/UK-Crime-Analysis/blob/main/crimeimages/Barplot_candle.png)
 
 
-**2. There's a positive correlation between firearm and drug crimes. This can be seen in the scatter plot and heatmap below.**
+**2. There's a positive correlation between firearm and drug crimes. This can be seen in the scatter plot and heatmap below. The correlation coefficient of 0.84 depicts a strong relationship**
 
 ![](https://github.com/odogwu25/UK-Crime-Analysis/blob/main/crimeimages/drug%20%26%20firearm%20corr.png)
 
 ![](https://github.com/odogwu25/UK-Crime-Analysis/blob/main/crimeimages/drug%20and%20firearm%20scatterplot.png)
+
+
+# ACHIEVING STATIONARITY
+
+To eliminate any visible correlation and collinearity with the historical data, time series data must be made stable. The features or value of a sample observation in stationary time-series data are independent of the timestamp at which it is observed. For instance, a hypothetical dataset of an area's population broken down by year would be non-stationary if it showed that the population doubled every year or increased by a fixed amount. Every observation is strongly influenced by the year because the population value depends on how far away it is from a chosen former year.
+
+![](https://github.com/odogwu25/UK-Crime-Analysis/blob/main/crimeimages/detrending.png)
 
 
 # FUTURE PREDICTION USING ARIMA
@@ -35,5 +42,6 @@ The autoregressive integrated moving average(ARIMA) was used for prediction. Bef
 
 ![](https://github.com/odogwu25/UK-Crime-Analysis/blob/main/crimeimages/Arima.png)
 
+# CONCLUSION
 
-
+Several interactive queries and counts from the publicly available data set were done using Apache Spark SQL to evaluate these assertions. From 2010 to June 2021, it was seen that violent crimes—later classified as sexual offences were progressively on the rise. The trend may have been stagnant between 2019 and 2020 due to the pandemic, but a modest regression that appeared to indicate a change in direction was observed in the final months of 2021. It was also discovered that Birmingham does not appear among the top 10 cities when grouped by decreasing order in the data frame that contained all firearm occurrences per head in each city, refuting the second claim that Birmingham had the highest number of firearm events per head. Lastly, The Pearson correlation coefficients were used to investigate and assess the hypothesis that drug use was linked to firearm occurrences. The positive outcome provided both coefficient values of 1.0 and 0.84, indicating a high correlation.
