@@ -14,9 +14,8 @@ Using time series data, this analysis will look at the trend of violent crimes u
 # KEY FINDINGS
 
 **1. Violent Crimes have risen steadily, with crime rates decreasing in the first quarter of every year. This can be seen in the charts below.**
-Vertical or horizontal bars are used in bar graphs to visually display data along an x-axis and a y-axis. Each year is represented by each bar. An observer may quickly compare the various bars or Violent crime frequencies when they are stacked next to one another. This visualization method aims to display the intensity of violent crimes with the height of each bar for years. Most audiences can read bar graphs and understand the information they contain because they have been used widely in everything from textbooks to newspapers.
 
-A thread-like feature at the top of each bar denotes the extent of a crime rate before its slight retracement. This could be seen in every other year apart from 2010. This means that Violent crimes rose steadily in 2010 without retracement in the last quater.
+Vertical or horizontal bars are used in bar graphs to visually display data along an x-axis and a y-axis. Each year is represented by each bar. An observer may quickly compare the various bars or Violent crime frequencies when stacked next to one another. This visualization method aims to display the intensity of violent crimes with the height of each bar for years. Most audiences can read bar graphs and understand the information they contain because they have been used widely in everything from textbooks to newspapers. A thread-like feature at the top of each bar denotes the extent of a crime rate before its slight retracement. This could be seen in every other year apart from 2010. This means that Violent crimes rose steadily in 2010 without retracement in the last quater.
 
 ![](https://github.com/odogwu25/UK-Crime-Analysis/blob/main/crimeimages/violent_Time%20serioes.png)
 
