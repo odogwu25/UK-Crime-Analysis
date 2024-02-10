@@ -11,8 +11,12 @@ Using time series data, this analysis will look at the trend of violent crimes u
 5. Using statistical and machine learning techniques to ascertain facts and make possible predictions.
 
 # KEY FINDINGS
-Violent Crimes have risen steadily over the years. This could be seen on a line chart plot.
+Violent Crimes have risen steadily over the years. This can be seen in the charts below.
+
 ![](https://github.com/odogwu25/UK-Crime-Analysis/blob/main/crimeimages/violent_Time%20serioes.png)
 
+![](https://github.com/odogwu25/UK-Crime-Analysis/blob/main/crimeimages/stack%20plot.png)
+
+![The candle stick shows the retracement each year](https://github.com/odogwu25/UK-Crime-Analysis/blob/main/crimeimages/Barplot_candle.png)
 
 
