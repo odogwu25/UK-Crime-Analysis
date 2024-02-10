@@ -12,6 +12,7 @@ Using time series data, this analysis will look at the trend of violent crimes u
 
 # KEY FINDINGS
 Violent Crimes have risen steadily over the years. This could be seen on a line chart plot.
-![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![](https://github.com/odogwu25/UK-Crime-Analysis/blob/main/crimeimages/violent_Time%20serioes.png)
+
 
 
