@@ -23,6 +23,5 @@ Using time series data, this analysis will look at the trend of violent crimes u
 
 **2. There's a positive correlation between firearm and drug crimes. This can be seen in the scatter plot and heatmap below.**
 
-![](https://github.com/odogwu25/UK-Crime-Analysis/blob/main/crimeimages/scatter%20plot.png)
-
 ![](https://github.com/odogwu25/UK-Crime-Analysis/blob/main/crimeimages/drug%20%26%20firearm%20corr.png)
+
